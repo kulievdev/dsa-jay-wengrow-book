@@ -1,4 +1,4 @@
-// must be ordered array
+// must be ordered array => return the index of where searchValue is found.
 
 const binarySearch1 = (array, searchValue) => {
     let lowerBound = 0;
@@ -17,7 +17,7 @@ const binarySearch1 = (array, searchValue) => {
             lowerBound = midpoint + 1;
         }
     }
-    return null;
+    return -1;
 };
 
 console.log(
