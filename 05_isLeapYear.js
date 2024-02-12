@@ -1,0 +1,12 @@
+function arraySum(array) {
+    let sum = 0;
+
+    for (let i = 0; i < array.length; i++) {
+        sum += array[i];
+    }
+    return sum;
+}
+
+console.log(arraySum([1, 5, 10, 20, 35]));
+
+// O(N) efficiency
