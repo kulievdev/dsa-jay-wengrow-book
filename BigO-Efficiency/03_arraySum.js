@@ -9,4 +9,4 @@ function arraySum(array) {
 
 console.log(arraySum([1, 5, 10, 20, 35]));
 
-// O(N) efficiency
+// O(N)

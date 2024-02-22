@@ -9,4 +9,4 @@ const isPrime = (number) => {
 
 console.log(isPrime(11)); // true
 
-// O(N) efficiency
+// O(N)

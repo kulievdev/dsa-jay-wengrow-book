@@ -5,4 +5,4 @@ function isLeapYear(year) {
 console.log(isLeapYear(2022)); // false
 console.log(isLeapYear(2020)); // true
 
-// O(1) efficiency
+// O(1)
