@@ -1,4 +1,17 @@
-// must be ordered array => return the index of where searchValue is found.
+// Binary search is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item until you've narrowed down the possible locations to just one.
+
+// Here's how binary search works:
+
+// 1. Start with the entire sorted list.
+// 2. Divide the list in half and check if the middle element is equal to the target.
+// 3. If the middle element is equal to the target, return its index.
+// 4. If the middle element is greater than the target, repeat the process on the left half of the list.
+// 5. If the middle element is less than the target, repeat the process on the right half of the list.
+// 6. Continue this process until the target is found or the search space is empty.
+
+// Time Complexity - O(log n)
+
+// Binary search is a very efficient algorithm with a time complexity of O(log n), where n is the number of elements in the list.
 
 const binarySearch1 = (array, searchValue) => {
     let lowerBound = 0;
