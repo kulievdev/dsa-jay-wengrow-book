@@ -24,7 +24,7 @@
     return true;
 }; */
 
-// O(n)
+// O(n * m)
 
 function isSubset(array1, array2) {
     let hashTable = {};
@@ -54,3 +54,5 @@ function isSubset(array1, array2) {
 
 console.log(isSubset(["a", "b", "c", "d", "e", "f"], ["b", "d", "f"])); // true
 console.log(isSubset(["a", "b", "c", "d", "e", "f"], ["b", "d", "f", "h"])); // false
+
+// O(n)
